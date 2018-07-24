@@ -1,10 +1,10 @@
-% x = 0 :0.01 : 2*pi;
-% y = sin(x);
-% g = cos(x);
-% plot(x, y,'c', x, g, 'g');
-% legend('111', '222');
-% grid on;
-% axis equal;
+x = 0 :0.01 : 2*pi;
+y = sin(x);
+g = cos(x);
+plot(x, y,'black', x, g, 'red');
+legend('111', '222');  % 在坐标区上添加图例
+grid on;
+axis equal;
 
 % x = 0 : 0.01 : 10;
 % y = exp(-x) .* sin(2 * x + 3);
@@ -17,6 +17,3 @@
 
 % format long e
 % disp(pi);
-
-
-
